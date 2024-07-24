@@ -22,7 +22,7 @@ jobs:
         flavors:
         - "gnome"
         suites:
-        - "jammy"
+        - "bullseye"
   prepare_release:
     outputs:
       release_id: "${{ steps.release.outputs.id }}"
